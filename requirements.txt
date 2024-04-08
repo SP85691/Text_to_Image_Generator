@@ -1,0 +1,5 @@
+streamlit 
+gradio-client 
+opencv-python 
+gradio 
+python-dotenv
