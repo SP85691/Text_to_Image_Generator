@@ -42,7 +42,7 @@ def main():
     st.set_page_config(page_title="Stable Gen AI", page_icon="🤖")
     st.title('Text to Image Generator 🚀✌️')
     st.divider()
-    with st.chat_message("user"):
+    with st.chat_message("assistant"):
         st.write("🤖 Prompt Freely as much you want ✌️")
     model_options = {
         "prodia/sdxl-stable-diffusion-xl": [
