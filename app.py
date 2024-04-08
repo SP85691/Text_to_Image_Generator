@@ -65,6 +65,7 @@ def main():
 
     model_values = model_options[selected_model]
     selected_checkpoint = st.sidebar.selectbox("Choose a checkpoint", model_values)
+    st.info("Choose Turbovision for better results 🔥✌️")
 
     width = st.sidebar.slider("Width", min_value=100, max_value=1000, value=512, step=1)
     height = st.sidebar.slider("Height", min_value=100, max_value=1000, value=512, step=1)
