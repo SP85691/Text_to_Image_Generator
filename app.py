@@ -39,6 +39,7 @@ if 'chat_history' not in st.session_state:
     st.session_state['chat_history'] = []
 
 def main():
+    st.set_page_config(page_title="Stable Gen AI", page_icon="🤖")
     st.title('Text to Image Generator 🚀✌️')
     st.divider()
     with st.chat_message("user"):
